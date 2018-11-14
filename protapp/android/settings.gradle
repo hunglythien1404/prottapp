@@ -1,0 +1,3 @@
+rootProject.name = 'protapp'
+
+include ':app'
