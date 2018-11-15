@@ -32,12 +32,12 @@ class Tab2 extends Component {
     return (
       <Container>
         <Header style={{backgroundColor: "white"}}>
-          <Body>
-          <Title style={{color: "black"}}>Header</Title>
-          </Body>
+          <View style={{display: "flex", flex: 1, flexDirection: "row", alignItems: "center", justifyContent: "flex-end"}}>
+            <Title style={{color: "black"}}>Header</Title>
+          </View>
           <Right>
             <Button transparent onPress={this.props.screenProps.handleOption}>
-              <Icon name='menu' style={{backgroundColor: "black"}}/>
+              <Icon name='md-menu' style={{color: "black"}}/>
             </Button>
           </Right>
         </Header>

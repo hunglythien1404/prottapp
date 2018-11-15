@@ -82,27 +82,6 @@ export const Styles = {
     backgroundColor: "gray",
     height: 100,
   },
-  imgTab: {
-    fontSize: 120,
-    marginTop: 15,
-    marginRight: 30,
-  },
-  imgTab1: {
-    fontSize: 15,
-    marginTop: 80,
-    marginRight: 30,
-  },
-  imgTab2: {
-    display: "flex",
-    marginTop: 40,
-    fontSize: 90,
-    marginRight: 30,
-  },
-  imgTab3: {
-    fontSize: 15,
-    marginTop: 80,
-    marginRight: 30,
-  },
   listBtn1: {
     width: 150,
     backgroundColor: "#FFCC33",
@@ -130,27 +109,37 @@ export const Styles = {
     justifyContent:'center'
   },
   numKeyBtn: {
-    width: 125,
+    width: 100,
     height: 50,
     justifyContent: "center",
     alignItems: "center",
-    marginRight: 15,
     borderWidth: 0.5,
     borderColor: "#EEEEEE",
-    borderRadius: 5
+    borderRadius: 5,
+  },
+  rowKey: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between"
   },
   numKey: {
-    width: 125,
+    width: 100,
     height: 65,
     justifyContent: "center",
     alignItems: "center",
-    marginRight: 15
   },
   imgContent: {
     display: "flex",
-    justifyContent: "flex-start",
+    flex: 1,
     flexDirection: "row",
-    marginBottom: 10,
-    marginTop: 10
-  }
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  imgContent2nd: {
+    display: "flex",
+    flex: 0.7,
+    flexDirection: "row",
+    justifyContent: "space-around",
+    alignItems: "center",
+  },
 };
