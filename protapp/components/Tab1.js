@@ -25,7 +25,7 @@ class Tab1 extends Component {
        <Header style={{backgroundColor: "white"}}>
          <Left>
            <Button transparent onPress={this.props.screenProps.handleDrawer}>
-             <Icon name='arrow-back' style={{backgroundColor: "black"}}/>
+             <Icon name='md-arrow-round-back' style={{color: "black"}}/>
            </Button>
          </Left>
          <Body>
@@ -35,7 +35,7 @@ class Tab1 extends Component {
          </Body>
          <Right>
            <Button transparent onPress={this.props.screenProps.handleOption}>
-             <Icon name='menu' style={{backgroundColor: "black"}}/>
+             <Icon name='md-menu' style={{color: "black"}}/>
            </Button>
          </Right>
        </Header>
